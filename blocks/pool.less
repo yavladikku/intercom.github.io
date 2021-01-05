@@ -1,0 +1,71 @@
+// main: ../style.less
+
+.pool__bg {
+    background: url("img/pool_bg.png") no-repeat top center / cover;
+}
+
+.pool {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pool__left {
+    h1 {
+        margin-top: 100px;
+        margin-bottom: 80px;
+        font-size: 2.16rem;
+        color: white;
+        text-transform: uppercase;
+        span {
+            color: @yellow;
+        }
+    }
+}
+
+.pool__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    p {
+        width: 40%;
+        color: white;
+        margin-bottom: 40px;
+    }
+    
+    img {
+        height: 15px;
+    }
+    
+    .pool_yellow {
+        color: @yellow;
+    }
+}
+
+.pool__right {
+    border: 3px white solid;
+    margin: 100px auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+//    padding: 60px 50px;
+    
+    h1 {
+        color: white;
+        font-size: 1.33rem;
+        width: 50%;
+        margin: 55px auto 100px;
+        width: 55%;
+    }
+    
+    a {
+        border: 1px solid @yellow;
+        background: @yellow;
+        padding: 20px 50px;
+        margin: 0 auto 50px;
+        color: @black;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+    }
+}

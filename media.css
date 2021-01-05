@@ -1,0 +1,94 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 1190px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        max-width: 990px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        max-width: 767px;
+    }
+    
+    .intro {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+    
+    .gallery__items {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        
+        -ms-align-items: center;
+        align-items: center;
+        
+        
+    }
+    
+    .gallery__items img {
+            margin-bottom: 10px;
+        }
+    
+    .complex__bar {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+    
+    .complex__block {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+    
+    .pool {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+    
+    .price__block {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+    
+    .price__block__left {
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 574px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .container {
+        max-width: none;
+    }
+}
